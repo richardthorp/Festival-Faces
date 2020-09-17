@@ -1,3 +1,25 @@
-h1 {
-    font-family: 'Londrina Solid'
+.nav-container {
+    position: relative;
+    height: 125px;
+    width: 100%;
+}
+
+.blue-stripe {
+    height: 50%;
+    background-color: #91BFBF;
+
+}
+
+.green-stripe {
+    height: 50%;
+    background-color: #769B67;
+}
+
+
+#logo {
+    height: 90%;
+    position: absolute;
+    z-index: 1;
+    line-height: 50%;
+    margin-left: 15px;
 }
