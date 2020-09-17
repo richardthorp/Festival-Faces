@@ -4,7 +4,6 @@
     min-height: 80px;
     min-width: 100%;
 
-
 }
 
 #logo {
@@ -48,15 +47,14 @@
     
 }
 
-.navbar-toggler-icon {
-    background-color: transparent;
-
+nav span i {
+    color: #ffffff;
+    font-size: 2rem;
 }
-
 .navbar-toggler {
     position: relative;
     bottom: 22px;
     right: 10px;
+    border: 1px solid #ffffff;
    
-
 }
