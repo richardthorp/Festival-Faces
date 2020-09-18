@@ -90,6 +90,16 @@ nav span i {
     border-radius: 50%;
     border: 2px solid #ffffff;
 }
+
+/*------------------------------------------------------Footer */
+footer {
+    width: 100%;
+    background-color: #769B67;
+    position: fixed;
+    bottom: 0;
+    margin-top: 20px;
+}
+
 /*------------------------------------------------------Media Queries */
 @media only screen and (max-width: 760px) {
     .nav-item {
