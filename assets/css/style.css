@@ -1,6 +1,7 @@
 /*------------------------------------------------------General */
 body {
-    background-color: #91BFBF
+    background-color: #91BFBF;
+    min-width: 275px;
 }
 /*------------------------------------------------------Nav bar */
 .nav-container {
@@ -95,9 +96,19 @@ nav span i {
 footer {
     width: 100%;
     background-color: #769B67;
-    position: fixed;
-    bottom: 0;
+    color: #ffffff80;
     margin-top: 20px;
+}
+
+footer a, footer p {
+    color:#ffffff80;
+    margin: 0;
+}
+
+footer i {
+    font-size: 2rem;
+    padding: 10px;
+
 }
 
 /*------------------------------------------------------Media Queries */
