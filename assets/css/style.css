@@ -2,6 +2,7 @@
 body {
     background-color: #91BFBF;
     min-width: 275px;
+    
 }
 /*------------------------------------------------------Nav bar */
 .nav-container {
@@ -95,6 +96,7 @@ nav span i {
 /*------------------------------------------------------Footer */
 footer {
     width: 100%;
+    min-height: 62px;
     background-color: #769B67;
     color: #ffffff80;
     margin-top: 20px;
@@ -107,10 +109,13 @@ footer a, footer p {
 
 footer i {
     font-size: 2rem;
-    padding: 10px;
+    padding: 0 10px;
 
 }
 
+footer a:hover{
+    color:#ffffff;
+}
 /*------------------------------------------------------Media Queries */
 @media only screen and (max-width: 760px) {
     .nav-item {
@@ -125,4 +130,14 @@ footer i {
     .nav-container{
         height: 80px;
     }
+
+    footer i{
+        font-size: 1.5rem;
+        padding: 0 5px;
+    }
+
+    footer p, footer a{
+        font-size: 0.8rem;
+    }
+
 }
