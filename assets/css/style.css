@@ -25,6 +25,13 @@ body {
 
 }
 
+.image-container{
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-bottom: 30px;
+
+}
 
 /*------------------------------------------------------Nav bar */
 .nav-container {
@@ -108,13 +115,6 @@ nav span i {
     margin-bottom: 30px;
 }
 
-.welcome-image{
-    width: 90%;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    margin-bottom: 30px;
-
-}
 .about {
     width: 95%;
     margin: 0 auto;
