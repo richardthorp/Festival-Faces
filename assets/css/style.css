@@ -97,10 +97,10 @@ nav span i {
 }
 
 .welcome-image{
-    height: 90%;
     width: 90%;
     border-radius: 50%;
     border: 2px solid #ffffff;
+    margin-bottom: 30px;
 
 }
 .about {
