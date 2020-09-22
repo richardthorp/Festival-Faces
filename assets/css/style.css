@@ -9,7 +9,7 @@ body {
 
 .headings {
     font-family: 'Londrina Solid', Impact, sans-serif;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #ffffff;
     letter-spacing: 0.3rem;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .welcome-container, .prices-container {
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     border: 1px solid #ffffff;
@@ -133,11 +133,12 @@ footer a:hover{
 }
 
 .about {
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
 .about h2 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .about img{
@@ -159,7 +160,7 @@ footer a:hover{
 }
 /*------------------------------------------------------Contact page */
 .contact-container {
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
     border: 1px solid #ffffff;
     border-radius: 10px;
