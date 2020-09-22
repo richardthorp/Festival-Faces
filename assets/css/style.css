@@ -19,7 +19,7 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.welcome-container, .prices-container, .contact-container {
+.welcome-container, .prices-container {
     width: 95%;
     margin: 0 auto;
     text-align: center;
@@ -157,8 +157,30 @@ footer a:hover{
 .prices i{
     font-size: 1.5rem;
 }
-/*------------------------------------------------------Footer */
+/*------------------------------------------------------Contact page */
+.contact-container {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(163, 187, 187);
 
+}
+
+.form-input {
+width: 60%;
+display: block;
+margin: 10px auto;
+border-radius: 10px;
+border: 1px solid #ffffff;
+background-color: transparent;
+
+}
+
+.send-button {
+    display: block;
+    margin: 0 auto;
+}
 /*------------------------------------------------------Media Queries */
 @media only screen and (max-width: 760px) {
     .nav-item {
@@ -189,3 +211,4 @@ footer a:hover{
     }
 
 }
+
