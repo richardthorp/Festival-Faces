@@ -49,7 +49,7 @@ body {
 #logo {
     height: 90%;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     margin-left: 15px;
     
 }
@@ -71,6 +71,7 @@ body {
 }
 
 .navbar-expand-sm{
+    z-index: 1;
     background-color: #769B67;
 }
 
