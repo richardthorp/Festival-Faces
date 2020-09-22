@@ -167,7 +167,7 @@ footer a:hover{
 
 .contact-container {
     width: 80%;
-    margin: 100px auto;
+    margin: 50px auto;
     border: 1px solid #ffffff;
     border-radius: 10px;
     background-color: rgb(163, 187, 187);
@@ -207,6 +207,15 @@ footer a:hover{
 
 }
 
+@media only screen and (max-width: 575px) {
+ .contact-container {
+        margin-top: 20px;
+    }
+    .form-input {
+    width: 90%;
+    }
+}
+
 @media only screen and (max-width: 380px) {
     .nav-container{
         height: 80px;
@@ -225,16 +234,10 @@ footer a:hover{
     footer p, footer a{
         font-size: 0.8rem;
     }
+
     .page-wrap {
-    height: 79vh;
+    height: 82.5vh;
     }
-
-    .contact-container {
-        margin-top: 20px;
-    }
-    .form-input {
-    width: 90%;
-
 
 }
 
