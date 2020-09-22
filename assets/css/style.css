@@ -159,9 +159,14 @@ footer a:hover{
     font-size: 1.5rem;
 }
 /*------------------------------------------------------Contact page */
+.page-wrap {
+    width: 80%;
+    height: 79.5vh;
+}
+
 .contact-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 100px auto;
     border: 1px solid #ffffff;
     border-radius: 10px;
     background-color: rgb(163, 187, 187);
@@ -169,18 +174,24 @@ footer a:hover{
 }
 
 .form-input {
-width: 60%;
-display: block;
-margin: 10px auto;
-border-radius: 10px;
-border: 1px solid #ffffff;
-background-color: transparent;
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
 
 }
 
 .send-button {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+}
+.contact-image {
+    width: 90%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+
 }
 /*------------------------------------------------------Media Queries */
 @media only screen and (max-width: 760px) {
@@ -210,6 +221,10 @@ background-color: transparent;
     footer p, footer a{
         font-size: 0.8rem;
     }
+    .contact-page-wrap {
+    height: 79vh;
+}
+
 
 }
 
