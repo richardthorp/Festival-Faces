@@ -7,11 +7,16 @@ body {
     
 }
 
-.headings{
+.headings {
     font-family: 'Londrina Solid', Impact, sans-serif;
     margin-top: 20px;
     color: #ffffff;
     letter-spacing: 0.3rem;
+}
+
+.text-content {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
 }
 
 .welcome-container, .prices-container, .contact-container {
@@ -93,58 +98,6 @@ nav span i {
    
 }
 
-/*------------------------------------------------------Home page */
-.welcome, .prices, .contact {
-    width: 95%;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    margin-top: 30px;
-    background-color: rgb(163, 187, 187);
-
-}
-
-.welcome hr {
-    width: 200px;
-    height: 3px;
-    background-color: #ffffff;
-}
-
-.welcome h2 {
-    margin-bottom: 30px;
-}
-
-.about {
-    width: 95%;
-    margin: 0 auto;
-}
-.about h2 {
-    text-align: center;
-}
-
-.about img{
-    width: 25%;
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 50%;
-    border: 2px solid #ffffff;
-    float: left;
-    margin-right: 20px;
-}
-
-.about p {
-    font-size: 1.3rem;
-    letter-spacing: 0.1rem;
-}
-
-.prices {
-    margin-top: 30px;
-}
-
-.prices i{
-    font-size: 1.5rem;
-}
 /*------------------------------------------------------Footer */
 footer {
     width: 100%;
@@ -168,6 +121,44 @@ footer i {
 footer a:hover{
     color:#ffffff;
 }
+/*------------------------------------------------------Home page */
+.welcome-container hr {
+    width: 200px;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+.welcome-container h2 {
+    margin-bottom: 30px;
+}
+
+.about {
+    width: 95%;
+    margin: 0 auto;
+}
+.about h2 {
+    text-align: center;
+}
+
+.about img{
+    width: 25%;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    float: left;
+    margin-right: 20px;
+}
+
+.prices {
+    margin-top: 30px;
+}
+
+.prices i{
+    font-size: 1.5rem;
+}
+/*------------------------------------------------------Footer */
+
 /*------------------------------------------------------Media Queries */
 @media only screen and (max-width: 760px) {
     .nav-item {
