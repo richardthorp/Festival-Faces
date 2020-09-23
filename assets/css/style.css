@@ -169,6 +169,11 @@ footer a:hover{
 .prices i{
     font-size: 1.5rem;
 }
+/*------------------------------------------------------Gallery page */
+.thumbnail {
+    width: 100%;
+}
+
 /*------------------------------------------------------Contact page */
 .contact-container {
     width: 80%;
