@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     width: 80%;
     min-height: 79.5vh;
+    display: block;
 }
 
 .headings {
@@ -26,6 +27,7 @@ body {
 }
 
 .welcome-container, .prices-container, .gallery-container{
+    display: block;
     text-align: center;
     border: 1px solid #ffffff;
     border-radius: 10px;
@@ -143,10 +145,6 @@ footer a:hover{
     margin: 15px auto;
 }
 
-.about {
-    width: 80%;
-    margin: 0 auto;
-}
 .about h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -274,7 +272,7 @@ footer a:hover{
     }
 
     .page-wrap {
-    height: 82.5vh;
+    min-height: 82.5vh;
     }
 
 }
