@@ -173,6 +173,9 @@ footer a:hover{
 .thumbnail {
     width: 100%;
 }
+.expanded-image {
+    width: 100%;
+}
 
 /*------------------------------------------------------Contact page */
 .contact-container {
