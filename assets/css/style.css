@@ -124,13 +124,18 @@ footer a:hover{
 }
 /*------------------------------------------------------Home page */
 .welcome-container hr {
-    width: 200px;
-    height: 3px;
+    width: 20%;
+    height: 2px;
     background-color: #ffffff;
 }
 
 .welcome-container h2 {
     margin-bottom: 30px;
+}
+
+.tag-line {
+    font-size: 1.2rem;
+    margin: 15px auto;
 }
 
 .about {
@@ -202,6 +207,14 @@ footer a:hover{
         letter-spacing: 0rem;
 
     }
+    .headings {
+        letter-spacing: 0.2rem;
+        font-size: 1.8rem;
+    } 
+    .tag-line {
+    font-size: 1rem;
+}
+
     .form-input {
         width: 80%;
 
@@ -211,6 +224,14 @@ footer a:hover{
  .contact-container {
         margin-top: 20px;
     }
+     .headings {
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    } 
+    .tag-line {
+    font-size: 0.9rem;
+}
     .form-input {
     width: 90%;
     }
@@ -221,6 +242,14 @@ footer a:hover{
         height: 80px;
     }
 
+    .headings {
+        letter-spacing: 0rem;
+        font-size: 1.3rem;
+        margin-top: 10px;
+    } 
+     .tag-line {
+    font-size: 0.8rem;
+}
     .about p, .contact-container p{
         font-size: 1rem;
         letter-spacing: 0;
