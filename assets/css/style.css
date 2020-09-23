@@ -7,6 +7,12 @@ body {
     
 }
 
+.page-wrap {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 79.5vh;
+}
+
 .headings {
     font-family: 'Londrina Solid', Impact, sans-serif;
     margin-top: 30px;
@@ -19,9 +25,7 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.welcome-container, .prices-container {
-    width: 80%;
-    margin: 0 auto;
+.welcome-container, .prices-container, .gallery-container{
     text-align: center;
     border: 1px solid #ffffff;
     border-radius: 10px;
@@ -101,6 +105,7 @@ nav span i {
 
 /*------------------------------------------------------Footer */
 footer {
+    display: block;
     width: 100%;
     min-height: 62px;
     background-color: #769B67;
@@ -165,11 +170,6 @@ footer a:hover{
     font-size: 1.5rem;
 }
 /*------------------------------------------------------Contact page */
-.page-wrap {
-    width: 80%;
-    height: 79.5vh;
-}
-
 .contact-container {
     width: 80%;
     margin: 50px auto;
