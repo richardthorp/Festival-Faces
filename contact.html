@@ -18,10 +18,10 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
 		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
 	<link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
+	<link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
 </head>
 
-  <body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100">
 	<header class="nav-container">
 		<a href="index.html"><img id="logo" src="assets/images/logooutline.png" alt="Logo"
       /></a>
@@ -49,33 +49,46 @@
 								<a class="nav-link" href="gallery.html">Gallery</a>
 							</li>
 							<li class="nav-item active">
-								<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+								<a class="nav-link"
+									href="contact.html">Contact<span class="sr-only">(current)</span></a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 	</header>
-    <div class="container-fluid page-wrap">
-    <section>
-        <div class="row">
-            <div class="col-12 col-md-8 contact-container">
-            <h2 class="headings text-center">Contact Us</h2>
-        <p class="text-content text-center">For booking enquiries or further information please email us at <a href="mailto:festivalfaces@gmail.com">festivalfaces@gmail.com</a> or use the form below.</p>
-                <form>
-                <input id="name" name="name" type="text" class="form-input" placeholder="Name" required>
-                <input id="email" name="email" type="email" class="form-input" placeholder="Email" required>
-                <textarea rows="6" id="enquiry" name="enquiry" class="form-input" placeholder="Please type your enquiry here!" required></textarea>
-                <input type="submit" value="Send!" class="send-button">
-                </form>
+	<div class="container-fluid page-wrap">
+		<section>
+			<div class="row">
+				<div class="col-12 col-md-8 contact-container">
+					<h2 class="headings text-center">Contact Us</h2>
+					<p class="text-content text-center">For booking enquiries or further information please email us at
+						<a href="mailto:festivalfaces@gmail.com">festivalfaces@gmail.com</a> or use the form below.</p>
+					<form class="contact-form mx-auto">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" class="form-control" id="name" required>
+  </div>
+							<div class="form-group">
+								<label for="email">Email address:</label>
+								<input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							</div>
+
+							<div class="form-group">
+								<label for="enquiry">Please enter your enquiry here:</label>
+								<textarea class="form-control" id="enquiry" rows="3"></textarea>
+							</div> 
+                            <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+				<div class="d-none d-md-block col-md-4 my-auto">
+					<img class="contact-image" src="assets/images/contact.jpg" alt="Man with head painted like a Lego man.">
             </div>
-            <div class="d-none d-md-block col-md-4 my-auto">
-                <img class="contact-image" src="assets/images/contact.jpg" alt="Man with head painted like a Lego man.">
-            </div>
-        </div>
-    </section>
-    </div>
-    	<footer class="container-fluid mt-auto footer ff-footer">
+				</div>
+		</section>
+	</div>
+	<footer class="container-fluid mt-auto footer ff-footer">
 		<div class="row no-gutters">
 			<div class="col-6 col-sm-4 text-left text-sm-center order-1 my-auto">
 				<p>Contact us at:</p>
@@ -88,7 +101,8 @@
 				<p>
 					Follow us at: <br />
 					<a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
-					<a href="http://www.facebook.com/festivalfaces.uk/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="http://www.facebook.com/festivalfaces.uk/"
+						target="_blank"><i class="fab fa-facebook-square"></i></a>
 					<a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
 				</p>
 			</div>

@@ -186,20 +186,12 @@ nav span i {
     background-color: rgb(163, 187, 187);
 
 }
-
-.form-input {
-    width: 60%;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-
+.contact-form {
+    width: 80%;
 }
 
-.send-button {
-    display: block;
-    margin: 20px auto;
+.contact-form button {
+    margin-bottom: 15px;
 }
 .contact-image {
     width: 90%;
@@ -222,10 +214,6 @@ nav span i {
     .tag-line {
     font-size: 1rem;
 }
-
-    .form-input {
-        width: 80%;
-
 }
 
 @media only screen and (max-width: 575px) {
