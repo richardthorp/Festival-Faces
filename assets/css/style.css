@@ -31,7 +31,7 @@ body {
     border-radius: 10px;
     margin: 30px 0;
     padding: 20px 0;
-    background-color: rgb(163, 187, 187);
+    background-color: #f8f9fab3;
 
 }
 
@@ -162,8 +162,12 @@ nav span i {
     color: #212529;
 }
 
+.prices-container p {
+    padding: 0 30px;
+}
 .prices-container i{
     font-size: 1.5rem;
+    padding: 20px;
 }
 /*------------------------------------------------------Gallery page */
 .thumbnail {
