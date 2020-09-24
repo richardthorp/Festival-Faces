@@ -3,7 +3,7 @@ body {
     background-color: #91BFBF;
     min-width: 275px;
     font-family: Raleway, Arial, sans-serif;
-    color: #ffffff;
+    color: #000;
     
 }
 
@@ -15,7 +15,7 @@ body {
 .headings {
     font-family: 'Londrina Solid', Impact, sans-serif;
     margin-top: 30px;
-    color: #ffffff;
+    color: #212529;
     letter-spacing: 0.3rem;
 }
 
@@ -27,7 +27,7 @@ body {
 .welcome-container, .prices-container, .gallery-container{
     display: block;
     text-align: center;
-    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 2px #7ea5a5;
     border-radius: 10px;
     margin-top: 30px;
     background-color: rgb(163, 187, 187);
@@ -157,8 +157,12 @@ nav span i {
     margin-right: 20px;
 }
 
-.prices {
+.prices-container {
     margin-top: 30px;
+}
+
+.prices-container p, .prices-container h2 {
+    color: #212529;
 }
 
 .prices i{
@@ -176,7 +180,7 @@ nav span i {
 .contact-container {
     width: 80%;
     margin: 50px auto;
-    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 2px #7ea5a5;
     border-radius: 10px;
     background-color: rgb(163, 187, 187);
 
