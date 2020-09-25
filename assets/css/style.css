@@ -134,6 +134,10 @@ nav span i {
     background-color: #000;
 }
 
+.welcome-container h1 {
+    font-size: 4rem;
+}
+
 .tag-line {
     font-size: 1.2rem;
     margin: 15px auto;
@@ -219,9 +223,9 @@ nav span i {
         letter-spacing: 0rem;
 
     }
-    .headings {
+    .welcome-container h1 {
         letter-spacing: 0.2rem;
-        font-size: 2.1rem;
+        font-size: 3rem;
     }
     .tag-line {
     font-size: 1rem;
@@ -232,13 +236,14 @@ nav span i {
 }
 
 @media only screen and (max-width: 575px) {
-     .headings {
+     .welcome-container h1 {
         letter-spacing: 0.1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-top: 20px;
     } 
     .tag-line {
     font-size: 0.9rem;
+    letter-spacing: 0.2rem;
     }
    .about p, .contact-container p{
         font-size: 1rem;
@@ -254,13 +259,14 @@ nav span i {
         height: 80px;
     }
 
-    .headings {
+    .welcome-container h1 {
         letter-spacing: 0rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-top: 10px;
     } 
      .tag-line {
     font-size: 0.8rem;
+    letter-spacing: 0rem;
     }
  
     footer i{
