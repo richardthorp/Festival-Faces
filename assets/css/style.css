@@ -14,7 +14,7 @@ body {
 
 .headings {
     font-family: 'Londrina Solid', Impact, sans-serif;
-    /*margin-top: 30px;*/
+    margin-top: 20px;
     color: #212529;
     letter-spacing: 0.3rem;
 }
@@ -24,7 +24,7 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.welcome-container, .prices-container, .gallery-container{
+.prices-container, .gallery-container{
     display: block;
     text-align: center;
     box-shadow: 1px 1px 2px #7ea5a5;
@@ -39,7 +39,7 @@ body {
     width: 90%;
     border-radius: 50%;
     border: 2px solid #ffffff;
-    margin: 20px 0;
+    margin: 30px 0;
 
 }
 
@@ -128,10 +128,18 @@ nav span i {
     color:#ffffff;
 }
 /*------------------------------------------------------Home page */
+.welcome-container{
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
 .welcome-container hr {
     width: 20%;
-    height: 2px;
-    background-color: #ffffff;
+    height: 1px;
+    background-color: #000;
 }
 
 .tag-line {
@@ -200,7 +208,7 @@ nav span i {
 
 }
 /*------------------------------------------------------Media Queries */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     .nav-item {
         padding: 0 2px;
         font-size: 1.5rem;
@@ -213,12 +221,17 @@ nav span i {
     } 
     .tag-line {
     font-size: 1rem;
+    }
+    .image-container{
+    width: 100%;
+    
+
 }
 }
 
 @media only screen and (max-width: 575px) {
  .contact-container {
-        margin-top: 20px;
+        margin-top: 10px;
     }
      .headings {
         letter-spacing: 0.1rem;
