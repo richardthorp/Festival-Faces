@@ -236,6 +236,9 @@ nav span i {
 }
 
 @media only screen and (max-width: 575px) {
+    .welcome-container{
+        margin-top: 0;
+    }
      .welcome-container h1 {
         letter-spacing: 0.1rem;
         font-size: 2rem;
@@ -258,10 +261,12 @@ nav span i {
     .nav-container{
         height: 80px;
     }
-
+    .welcome-container{
+        margin-top: 0;
+    }
     .welcome-container h1 {
         letter-spacing: 0rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-top: 10px;
     } 
      .tag-line {
