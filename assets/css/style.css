@@ -147,6 +147,10 @@ nav span i {
 
 }
 
+.about {
+    margin-bottom: 60px;
+}
+
 .about h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -166,8 +170,8 @@ nav span i {
     margin-top: 30px;
 }
 
-.prices-container p, .prices-container h2 {
-    color: #212529;
+.prices-container p, .prices-container h4 {
+    color: #57734b;
 }
 
 .prices-container p {
@@ -218,15 +222,13 @@ nav span i {
     .headings {
         letter-spacing: 0.2rem;
         font-size: 2.1rem;
-    } 
+    }
     .tag-line {
     font-size: 1rem;
     }
     .image-container{
     width: 100%;
-    
-
-}
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -237,12 +239,11 @@ nav span i {
     } 
     .tag-line {
     font-size: 0.9rem;
-}
+    }
    .about p, .contact-container p{
         font-size: 1rem;
         letter-spacing: 0;
     }
-
     .form-input {
     width: 90%;
     }
