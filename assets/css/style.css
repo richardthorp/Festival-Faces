@@ -137,6 +137,7 @@ nav span i {
 
 .welcome-container h1 {
     font-size: 4rem;
+    text-transform: uppercase;
 }
 
 .tag-line {
