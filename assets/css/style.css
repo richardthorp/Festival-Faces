@@ -190,8 +190,7 @@ nav span i {
     font-size: 1.5rem;
     padding: 20px;
 }
-.services-text {
-    font-size: 0.8rem;
+.prices-text {
     font-weight: bold;
 }
 /*------------------------------------------------------Gallery page */
@@ -283,7 +282,10 @@ nav span i {
     font-size: 0.8rem;
     letter-spacing: 0rem;
     }
- 
+    .prices-text {
+    font-size: 0.7rem;
+    font-weight: bold;
+    }
     footer i{
         font-size: 1.5rem;
         padding: 0 5px;
