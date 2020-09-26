@@ -39,5 +39,7 @@ An even lighter shade of the logo blue can be found in the 'Services' area of th
 The 'Send' button at the bottom of the contact form is the same blue from the logo, ensuring the element is consistent with the rest of the website.
 
 ### Fonts
-The font used for all of the headings throughout the website is 'Londrina Solid' from Google Fonts. This was used in part as it is similar in style to the font found on the company logo. It works well for the website and therefore the business, as it connotes feelings of fun and of being hand made. As a back-up font, 'Impact' has been chosen as it is a very 'web-safe' font, as well as being striking and stencil like, which is appropriate for a website pertaining to art. The company logo font was not chosen for headings as the shadow effect detracted from the clarity of the headers.
+The font used for all of the headings throughout the website is 'Londrina Solid' from Google Fonts. This font was used in part as it is similar in style to the font found on the company logo. It works well for the website and therefore the business, as it connotes feelings of fun and of being hand made. As a back-up font, 'Impact' has been chosen as it is a very 'web-safe' font, as well as being striking and stencil like, which is appropriate for a website pertaining to art. The company logo font was not chosen for headings as the shadow effect detracted from the clarity of the headers.
+
+The font used for all other text on the website is 'Raleway' from Google Fonts. This font was chosen as it is very legible, even at small font sizes as well as being generally pleasing to the eye. As a back up font, 'Arial' has been selected as it is very 'web-safe' and is also very clear and easily legible.
 
