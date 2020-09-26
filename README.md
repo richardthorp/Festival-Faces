@@ -28,4 +28,12 @@ As a returning user of this website, I want to:
 * Check for updated costs
 
 ## Design
-[Click here to view wireframes](../blob/master/Festival%20Faces%20Wireframes.pdf)
+[Click here to view wireframes](https://github.com/richardthorp/Festival-Faces/blob/master/Festival%20Faces%20Wireframes.pdf)
+
+### Colour Scheme
+The colours found throughout the website have been taken from the company logo. The main body of the website is a lighter shade of the blue found in the logo and navigation bar. The outcomes of using the lighter shade chosen are:
+* Clearer contrast between the background colour and font colour
+* More contrast between the images and background colour
+* A light and non oppressive user experience when compared to large amounts of heavy, darker colours
+
+Other examples of use of the logo colours can be found in the 'Services' section of the home page, the 'Gallery' section of the Gallery page, the contact form on the contact page as well as the send button on the contact form.
