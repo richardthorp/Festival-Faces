@@ -215,7 +215,8 @@ nav span i {
     width: 80%;
 }
 
-.contact-form button {
+.form-submit-button {
+    background-color: #91BFBF;
     margin-bottom: 15px;
 }
 .contact-image {
