@@ -1,6 +1,4 @@
 # Festival-Faces
-### A website for face painting, eco glitter and body art company 'Festival Faces'!
-
 This is a website for the face painting company 'Festival Faces'. The company provide face painting, eco glitter and body art services at children's parties, corporate events,
 festivals and many other events. 
 The primary users of the website are parents and carers, business owners and event organisers.
