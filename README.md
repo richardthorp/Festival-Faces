@@ -43,3 +43,9 @@ The font used for all of the headings throughout the website is 'Londrina Solid'
 
 The font used for all other text on the website is 'Raleway' from Google Fonts. This font was chosen as it is very legible, even at small font sizes as well as being generally pleasing to the eye. As a back up font, 'Arial' has been selected as it is very 'web-safe' and is also very clear and easily legible.
 
+### Features
+#### Implemented Features
+Each page features the same responsive navigation bar with the navigational links being found in a dropdown list by clicking a 'hamburger' button which appears on screens 575 pixels wide or less. Each page also features the same footer which contains a link to the business' email address, links to the business' social network pages and the copyright infomation for the website. The footer also implements responsive design by reordering the footer content to push the copyright information to the bottom of the screen and the more important social network and email links above on small screen sizes.
+
+##### Home
+The home page features a short welcome message to the user, followed by a tag line which quickly tells the user the purpose of the business. Immediately below are three circular images on screen sizes 768 pixels wide and above, or 1 circular image on smaller screen sizes. The purpose of the three images on larger screens is to immediately display a selection of examples of work to the user. On smaller screens where only one image is displayed, the image acts as a more standard hero image, giving the user an immediate and stricking image.
