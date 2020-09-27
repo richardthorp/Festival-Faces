@@ -143,6 +143,7 @@ nav span i {
 .tag-line {
     font-size: 1.2rem;
     margin: 15px auto;
+    text-transform: capitalize;
 }
 
 .image-container{
