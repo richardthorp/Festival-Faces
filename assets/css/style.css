@@ -140,10 +140,10 @@ nav span i {
     text-transform: uppercase;
 }
 
-.tag-line {
+.tag-line{
     font-size: 1.2rem;
     margin: 15px auto;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .image-container{
