@@ -115,16 +115,22 @@ As a first time user of this website, I want to:
   
 * Understand the purpose of the website.
   * Upon arriving at the home page, the user is presented with a list of services offered ('FACE PAINTING - ECO GLITTER - BODY ART') by the business as well as examples of work in the form of the 3 images (1 on mobile). Directly below this is a short summation of what the business does in the 'About' section.
+
 * See examples of previous work.
   * This requirement is met immediately upon arriving at the home page with the three images acting as a hero image (or 1 large image on mobile). This is further met by the gallery page which contains 18 images exhibiting a wide range of previous work.
+
 * Understand what services are offered.
   The home page consists of very little in the way of copy, except for short consise paragraphs regarding the business' services and types of events catered for.
+
 * Gain an understanding of costs.
   Prices for childrens partys are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
+
 * Gain an undertanding of the company to attain whether they are right for my needs. 
   * Again, the 'Home' page offers short and clear copy that summarises the business' ethos and services.
+
 * Find links to social network channels to find reviews and updates.
   * As is common in web design, the footer contains links to the business' social network pages.
+
 * Quickly find contact details.
   * The contact details are quickly found through the navigation bar link for 'Contact' as well as several links to the contact page throughout the copy on the 'Home' page. As well as this, the email address for the business can be found along with social network links in the footer.
 
