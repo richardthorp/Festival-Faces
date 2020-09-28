@@ -69,12 +69,38 @@ The contact page is kept very simple, with an invitation to email the business o
 * An alternative to the modal code found in the Gallery page. Using Javascript, the code could be much more readable and maintainable.
 * A thank you message in the form of a modal when the user sends an enquiry through the contact form. 
 
-bookings on website? 
-Video as hero image? 
-Improved code for gallery modal. 
-Thank you for messasge modal (Doesnt work now as will launch modal before form filled)
+### Technologies Used
+1. [Gitpod](https://www.gitpod.io/)
+   * The IDE used to write the code for the website.
+   
+3. [Git](https://git-scm.com)
+   * Used for version control during the website build via the command terminal in Gitpod
+   
+3. [GitHub](https://pages.github.com/)
+   * Used to store the code after being 'commited' and 'pushed' using Git. 
+   
+3. [Bootstrap](https://www.getbootstrap.com/)
+   * Used to create structure and some styling, as well as responsive aspects of the website.
+   
+4. [jQuery](https://www.jquery.com/)
+   * Used to provide the Javascript found in the navigation bar.
+   
+5. [Google Fonts](https://www.fonts.google.com/)
+   * Used to provide the 'Raleway' and 'Londrina Solid' fonts used throughout the website.
+   
+6. [Font Awesome](https://www.fontawesome.com/)
+   * Used to provide the icons in the 'Services' section of the home page, as well as the social media icons in the footer.
+   
+7. [TinyJPG](https://www.tinyjpg.com/)
+   * Used to compress image files used on the website to speed up loading times.
+   
+8. [Balsamiq](https://www.balsamiq.com/)
+   * Software used to create wireframes.
+   
+   
+   
+   
 
-### Technologies
 
 ### Testing
 thank you modal bug
