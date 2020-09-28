@@ -52,7 +52,7 @@ Each page features a responsive navigation bar with the navigational links clear
 Each page also features the same footer which contains a link to the business' email address, links to the business' social network pages and the copyright infomation for the website. All clickable links are clearly indicated with a subtle change in colour when the curser is hovered over them. The footer also implements responsive design by reordering the footer content to push the copyright information to the bottom of the screen and the more important social network and email links above on small screen sizes.
 
 ##### Home
-The home page features a short welcome message to the user, followed by a tag line which quickly tells the user the purpose of the business. Immediately below are three circular images on screen sizes 768 pixels wide and above, or 1 circular image on smaller screen sizes. The purpose of the three images on larger screens is to immediately display a selection of examples of work to the user. On smaller screens where only one image is displayed, the image acts as a more standard hero image, giving the user an immediate and stricking example of what the website is about.
+The home page features a short welcome message to the user, followed by a tag line which quickly tells the user the purpose of the business. Immediately below are 3 circular images on screen sizes 768 pixels wide and above, or 1 circular image on smaller screen sizes. The purpose of the 3 images on larger screens is to immediately display a selection of examples of work to the user. On smaller screens where only 1 image is displayed, the image acts as a more standard hero image, giving the user an immediate and stricking example of what the website is about.
 
 Beneath this, the user finds the 'About' section, comprised of a small picture of some of the Festival Faces team along with 3 short sentences that summarise the ethos of the business, provide examples of previous clients and offer a link to 'get in touch'. The picture, with the three women all smiling establishes a human connection between business and the user, as well as providing reasurrance that this business is operated by friendly and happy people. The copy contained in the 'About' section is kept short and to the point so as not to overwhelm the user with information, and provide a call to action in the form of the 'get in touch' link which is clearly styled as a clickable link.
 
@@ -70,6 +70,7 @@ The contact page is kept very simple, with an invitation to email the business o
 * A hero video in place of the three images found on the home page. This would be an improved method of quickly establishing the businesses purpose and ethos.
 * An alternative to the modal code found in the Gallery page. Using Javascript, the code could be much more readable and maintainable.
 * A thank you message in the form of a modal when the user sends an enquiry through the contact form. 
+* A form that can give an immediate quote for potential customers by taking in variables such as location, number of guests and length of event and outputting an estimated price.
 
 ### Languages and Technologies  Used
 The website has been built using HTML5 and CSS, as well as some Javascript via plugins as detailed below.
@@ -113,14 +114,19 @@ As a first time user of this website, I want to:
   * The website follows common design features found throughout most websites. The navigation bar can be found at the top of every page, and clearly lists the areas of the website that the user can navigate to and what those areas are for.
   
 * Understand the purpose of the website.
-  * Upon arriving at the home page, the user is presented with a list of services offered ('FACE PAINTING - ECO GLITTER - BODY ART') by the business as well as examples of work. Directly below this is a short summation of what the business does in the 'About' section.
+  * Upon arriving at the home page, the user is presented with a list of services offered ('FACE PAINTING - ECO GLITTER - BODY ART') by the business as well as examples of work in the form of the 3 images (1 on mobile). Directly below this is a short summation of what the business does in the 'About' section.
 * See examples of previous work.
-  * This requirement is met immediately upon arriving at the home page with the three images acting as a hero image (or one large image on mobile). This is further met by the gallery page which contains 18 images exhibiting a wide range of previous work.
+  * This requirement is met immediately upon arriving at the home page with the three images acting as a hero image (or 1 large image on mobile). This is further met by the gallery page which contains 18 images exhibiting a wide range of previous work.
 * Understand what services are offered.
+  The home page consists of very little in the way of copy, except for short consise paragraphs regarding the business' services and types of events catered for.
 * Gain an understanding of costs.
+  Prices for childrens partys are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
 * Gain an undertanding of the company to attain whether they are right for my needs. 
+  * Again, the 'Home' page offers short and clear copy that summarises the business' ethos and services.
 * Find links to social network channels to find reviews and updates.
+  * As is common in web design, the footer contains links to the business' social network pages.
 * Quickly find contact details.
+  * The contact details are quickly found through the navigation bar link for 'Contact' as well as several links to the contact page throughout the copy on the 'Home' page. As well as this, the email address for the business can be found along with social network links in the footer.
 
 
 thank you modal bug
