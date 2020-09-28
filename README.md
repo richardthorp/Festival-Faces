@@ -110,9 +110,12 @@ The HTML code has been checked against the [W3C Markup Validator](https://www.va
 #### Testing against user requirements (listed in UX section of this README)
 As a first time user of this website, I want to:
 * Immediately understand how to navigate the website.
-  * The website follows common design features found throughout most websites. The navigation bar and links can be found at the top of every page
+  * The website follows common design features found throughout most websites. The navigation bar can be found at the top of every page, and clearly lists the areas of the website that the user can navigate to and what those areas are for.
+  
 * Understand the purpose of the website.
+  * Upon arriving at the home page, the user is presented with a list of services offered ('FACE PAINTING - ECO GLITTER - BODY ART') by the business as well as examples of work. Directly below this is a short summation of what the business does in the 'About' section.
 * See examples of previous work.
+  * This requirement is met immediately upon arriving at the home page with the three images acting as a hero image (or one large image on mobile). This is further met by the gallery page which contains 18 images exhibiting a wide range of previous work.
 * Understand what services are offered.
 * Gain an understanding of costs.
 * Gain an undertanding of the company to attain whether they are right for my needs. 
