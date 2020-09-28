@@ -97,6 +97,12 @@ The contact page is kept very simple, with an invitation to email the business o
 8. [Balsamiq](https://www.balsamiq.com/)
    * Software used to create wireframes.
    
+9. [Autoprefixer](https://www.autoprefixer.github.io/)
+   * Used to ensure cross browser validity for CSS.
+   
+10. [Am I Responsive?](http://www.ami.responsivedesign.is/)
+   * Used to create mock-ups found at the top of this README.
+   
    
    
    
