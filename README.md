@@ -67,7 +67,7 @@ When clicked, the thumbnails open a modal which enlarges the image making it muc
 The contact page is kept very simple, with an invitation to email the business or if prefered use the contact form to send an enquiry. The contact form uses form validation to ensure appropriate responses have been entered, such as the use of an @ charactor in the email address field. On screens 768 pixels or wider, and attractive image of a facepainter testing paint on her arm whilst surrounded by paints and brushes is displayed. This is a nice way to fill the space and further reinforce the authentic and creative nature of the business.
 
 #### Potential Future Features
-* A hero video in place of the three images found on the home page. This would be an improved method of quickly establishing the businesses purpose and ethos.
+* A hero video in place of the three images found on the home page. This would be an improved method of quickly establishing the business' purpose and ethos.
 * An alternative to the modal code found in the Gallery page. Using Javascript, the code could be much more readable and maintainable.
 * A thank you message in the form of a modal when the user sends an enquiry through the contact form. 
 * A form that can give an immediate quote for potential customers by taking in variables such as location, number of guests and length of event and outputting an estimated price.
@@ -108,7 +108,7 @@ The website has been built using HTML5 and CSS, as well as some Javascript via p
 ### Testing
 The HTML code has been checked against the [W3C Markup Validator](https://www.validator.w3.org/) and the CSS against the [W3C CSS Validator](https://www.validator.w3.org/) with any issues highlighted by the validators fixed. The code contains no validity issues.
 
-#### Testing against user requirements (listed in UX section of this README)
+#### Testing against user requirements (as listed in UX section)
 As a first time user of this website, I want to:
 * Immediately understand how to navigate the website.
   * The website follows common design features found throughout most websites. The navigation bar can be found at the top of every page, and clearly lists the areas of the website that the user can navigate to and what those areas are for.
@@ -123,7 +123,7 @@ As a first time user of this website, I want to:
   The home page consists of very little in the way of copy, except for short consise paragraphs regarding the business' services and types of events catered for.
 
 * Gain an understanding of costs.
-  Prices for childrens partys are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
+  Prices for childrens parties are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
 
 * Gain an undertanding of the company to attain whether they are right for my needs. 
   * Again, the 'Home' page offers short and clear copy that summarises the business' ethos and services.
@@ -134,6 +134,27 @@ As a first time user of this website, I want to:
 * Quickly find contact details.
   * The contact details are quickly found through the navigation bar link for 'Contact' as well as several links to the contact page throughout the copy on the 'Home' page. As well as this, the email address for the business can be found along with social network links in the footer.
 
+As a returning user of this website, I want to:
+* Quickly find contact details.
+  * The contact details are quickly found through the navigation bar link for 'Contact' as well as several links to the contact page throughout the copy on the 'Home' page. As well as this, the email address for the business can be found along with social network links in the footer.
+
+* Check for updated examples of work.
+  * This is easily achieved by visiting the 'Gallery' page via the navigation bar.
+
+* Check for updated costs.
+  * Prices for childrens parties are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
+
+#### Manual testing of all elements thoughout the website
+The following tests were all completed using the following web browsers and hardware:
+
+Web Browsers:
+
+* Google Chrome - Tested on Macbook Pro 2016 (13"), Microsoft Surface 3 (15"), Huawei P Smart 2019, Samsung Galaxy A6
+* Microsoft Edge 
+* Mozilla Firefox 
+* Apple Safari -tested on iPad 7th generation 2019 (10.2") and Macbook Pro 2016 (13")
+
+web browsers. As well as this, the website has been tested using a
 
 thank you modal bug
 
