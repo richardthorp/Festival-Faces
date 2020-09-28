@@ -28,7 +28,8 @@ body {
 .services-container, .gallery-container{
     display: block;
     text-align: center;
-    box-shadow: 1px 1px 2px #7ea5a5;
+    -webkit-box-shadow: 1px 1px 2px #7ea5a5;
+            box-shadow: 1px 1px 2px #7ea5a5;
     border-radius: 10px;
     margin: 30px 0;
     padding: 20px 0;
@@ -207,7 +208,8 @@ nav span i {
 .contact-container {
     width: 80%;
     margin: 50px auto;
-    box-shadow: 1px 1px 2px #7ea5a5;
+    -webkit-box-shadow: 1px 1px 2px #7ea5a5;
+            box-shadow: 1px 1px 2px #7ea5a5;
     border-radius: 10px;
     background-color: #f8f9fab3;
 
@@ -297,5 +299,4 @@ nav span i {
         font-size: 0.8rem;
     }
 }
-
 
