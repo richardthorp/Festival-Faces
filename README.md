@@ -51,3 +51,23 @@ Each page features a responsive navigation bar with the navigational links clear
 The home page features a short welcome message to the user, followed by a tag line which quickly tells the user the purpose of the business. Immediately below are three circular images on screen sizes 768 pixels wide and above, or 1 circular image on smaller screen sizes. The purpose of the three images on larger screens is to immediately display a selection of examples of work to the user. On smaller screens where only one image is displayed, the image acts as a more standard hero image, giving the user an immediate and stricking image.
 
 Beneath this, the user finds a small picture of some of the Festival Faces team along with 3 short sentences that summarise the ethos of the business, provide examples of previous clients and offer a link to 'get in touch'. The picture is used to give the business a 
+
+##### Gallery
+Modal gallery
+
+##### Contact
+Form with validation and email alternative  
+
+#### Future Features
+bookings on website? 
+Video as hero image? 
+Improved code for gallery modal. 
+Thank you for messasge modal (Doesnt work now as will launch modal before form filled)
+
+### Technologies
+
+### Testing
+
+### Deployment
+
+### Credits
