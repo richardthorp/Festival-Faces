@@ -47,7 +47,7 @@ The font used for all other text on the website is 'Raleway' from Google Fonts. 
 
 ### Features
 #### Implemented Features
-Each page features a responsive navigation bar with the navigational links clearly listed to the right of the page, or being found in a dropdown list by clicking a 'hamburger' button which appears on screens 575 pixels wide or less. The logo on the left of the navigation bar also serves as a link to the home page - a feature which is widely used in web design and therefore expected by the user. Each page also features the same footer which contains a link to the business' email address, links to the business' social network pages and the copyright infomation for the website. The footer also implements responsive design by reordering the footer content to push the copyright information to the bottom of the screen and the more important social network and email links above on small screen sizes.
+Each page features a responsive navigation bar with the navigational links clearly listed to the right of the page, or being found in a dropdown list by clicking a 'hamburger' button which appears on screens 575 pixels wide or less. The logo on the left of the navigation bar also serves as a link to the home page - a feature which is widely used in web design and therefore expected by the user. Each page also features the same footer which contains a link to the business' email address, links to the business' social network pages and the copyright infomation for the website. All clickable links are clearly indicated with a subtle change in colour when the curser is hovered over them. The footer also implements responsive design by reordering the footer content to push the copyright information to the bottom of the screen and the more important social network and email links above on small screen sizes.
 
 ##### Home
 The home page features a short welcome message to the user, followed by a tag line which quickly tells the user the purpose of the business. Immediately below are three circular images on screen sizes 768 pixels wide and above, or 1 circular image on smaller screen sizes. The purpose of the three images on larger screens is to immediately display a selection of examples of work to the user. On smaller screens where only one image is displayed, the image acts as a more standard hero image, giving the user an immediate and stricking example of what the website is about.
@@ -62,9 +62,13 @@ When clicked, the thumbnails open a modal which enlarges the image making it muc
 
 
 ##### Contact
-Form with validation and email alternative  
+The contact page is kept very simple, with an invitation to email the business or if prefered use the contact form to send an enquiry. The contact form uses form validation to ensure appropriate responses have been entered, such as the use of an @ charactor in the email address field. On screens 768 pixels or wider, and attractive image of a facepainter testing paint on her arm whilst surrounded by paints and brushes is displayed. This is a nice way to fill the space and further reinforce the authentic and creative nature of the business.
 
-#### Future Features
+#### Potential Future Features
+* A hero video in place of the three images found on the home page. This would be an improved method of quickly establishing the businesses purpose and ethos.
+* An alternative to the modal code found in the Gallery page. Using Javascript, the code could be much more readable and maintainable.
+* A thank you message in the form of a modal when the user sends an enquiry through the contact form. 
+
 bookings on website? 
 Video as hero image? 
 Improved code for gallery modal. 
@@ -73,6 +77,7 @@ Thank you for messasge modal (Doesnt work now as will launch modal before form f
 ### Technologies
 
 ### Testing
+thank you modal bug
 
 ### Deployment
 
