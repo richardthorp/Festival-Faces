@@ -47,7 +47,9 @@ The font used for all other text on the website is 'Raleway' from Google Fonts. 
 
 ### Features
 #### Implemented Features
-Each page features a responsive navigation bar with the navigational links clearly listed to the right of the page, or being found in a dropdown list by clicking a 'hamburger' button which appears on screens 575 pixels wide or less. The logo on the left of the navigation bar also serves as a link to the home page - a feature which is widely used in web design and therefore expected by the user. Each page also features the same footer which contains a link to the business' email address, links to the business' social network pages and the copyright infomation for the website. All clickable links are clearly indicated with a subtle change in colour when the curser is hovered over them. The footer also implements responsive design by reordering the footer content to push the copyright information to the bottom of the screen and the more important social network and email links above on small screen sizes.
+Each page features a responsive navigation bar with the navigational links clearly listed to the right of the page, or being found in a dropdown list by clicking a 'hamburger' button which appears on screens 575 pixels wide or less. The page the user is currently on is made clear by the navigational link for that page being brighter than the other links in the navigation bar. The logo on the left of the navigation bar also serves as a link to the home page - a feature which is widely used in web design and therefore expected by the user. 
+
+Each page also features the same footer which contains a link to the business' email address, links to the business' social network pages and the copyright infomation for the website. All clickable links are clearly indicated with a subtle change in colour when the curser is hovered over them. The footer also implements responsive design by reordering the footer content to push the copyright information to the bottom of the screen and the more important social network and email links above on small screen sizes.
 
 ##### Home
 The home page features a short welcome message to the user, followed by a tag line which quickly tells the user the purpose of the business. Immediately below are three circular images on screen sizes 768 pixels wide and above, or 1 circular image on smaller screen sizes. The purpose of the three images on larger screens is to immediately display a selection of examples of work to the user. On smaller screens where only one image is displayed, the image acts as a more standard hero image, giving the user an immediate and stricking example of what the website is about.
@@ -69,7 +71,9 @@ The contact page is kept very simple, with an invitation to email the business o
 * An alternative to the modal code found in the Gallery page. Using Javascript, the code could be much more readable and maintainable.
 * A thank you message in the form of a modal when the user sends an enquiry through the contact form. 
 
-### Technologies Used
+### Languages and Technologies  Used
+The website has been built using HTML5 and CSS, as well as some Javascript via plugins as detailed below.
+
 1. [Gitpod](https://www.gitpod.io/)
    * The IDE used to write the code for the website.
    
@@ -100,15 +104,22 @@ The contact page is kept very simple, with an invitation to email the business o
 9. [Autoprefixer](https://www.autoprefixer.github.io/)
    * Used to ensure cross browser validity for CSS.
    
-10. [Am I Responsive?](http://www.ami.responsivedesign.is/)
-   * Used to create mock-ups found at the top of this README.
-   
-   
-   
-   
-
-
 ### Testing
+The HTML code has been checked against the [W3C Markup Validator](https://www.validator.w3.org/) and the CSS against the [W3C CSS Validator](https://www.validator.w3.org/) with any issues highlighted by the validators fixed. The code contains no validity issues.
+
+#### Testing against user requirements (listed in UX section of this README)
+As a first time user of this website, I want to:
+* Immediately understand how to navigate the website.
+  * The website follows common design features found throughout most websites. The navigation bar and links can be found at the top of every page
+* Understand the purpose of the website.
+* See examples of previous work.
+* Understand what services are offered.
+* Gain an understanding of costs.
+* Gain an undertanding of the company to attain whether they are right for my needs. 
+* Find links to social network channels to find reviews and updates.
+* Quickly find contact details.
+
+
 thank you modal bug
 
 ### Deployment
