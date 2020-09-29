@@ -58,17 +58,13 @@ body {
 
 }
 
-.green-stripe {
-    height: 53px;
-    background-color: #769B67;
-}
-
 .navbar{
     padding: 0;
         
 }
 
-.navbar-expand-sm{
+.green-stripe{
+    height: 53px;
     z-index: 1;
     background-color: #769B67;
 }
@@ -80,7 +76,6 @@ body {
     font-size: 1.6rem;
     letter-spacing: 0.5rem;
     position: relative;
-    top: 5px;
     text-transform: uppercase;
     
 }
@@ -91,7 +86,7 @@ nav span i {
 }
 .navbar-toggler {
     position: relative;
-    bottom: 22px;
+    bottom: 26px;
     right: 10px;
     border: 1px solid #ffffff;
    
@@ -281,6 +276,12 @@ nav span i {
 
     }
 
+    .navbar-toggler {
+    position: relative;
+    bottom: 22px;
+    
+   
+}
     .welcome-container{
         margin-top: 0;
     }
