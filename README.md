@@ -10,6 +10,18 @@ The business goals of the website are:
 * Provide a central place to direct business leads via online or in person marketing
 * Reassure potential customers of quality and legitimacy through a well made website with great UX 
 
+## Table of Contents
+
+[User Experience - UX](#UX)
+[Design](#design)
+[Features](#features)
+[Languages and Technologies](#tech)
+[Testing](#testing)
+[Deployment](#deployment)
+[Credits](#credits)
+
+
+<a name="UX"></a>
 ## UX
 
 As a first time user of this website, I want to:
@@ -27,6 +39,7 @@ As a returning user of this website, I want to:
 * Check for updated examples of work.
 * Check for updated costs.
 
+<a name="design"></a>
 ## Design
 [Click here to view wireframes](https://github.com/richardthorp/Festival-Faces/blob/master/Festival%20Faces%20Wireframes.pdf)
 
@@ -45,6 +58,7 @@ The font used for all of the headings throughout the website is 'Londrina Solid'
 
 The font used for all other text on the website is 'Raleway' from Google Fonts. This font was chosen as it is very legible, even at small font sizes as well as being generally pleasing to the eye. As a back up font, 'Arial' has been selected as it is very 'web-safe' and is also very clear and easily legible.
 
+<a name="features"></a>
 ### Features
 #### Implemented Features
 Each page features a responsive navigation bar with the navigational links clearly listed to the right of the page, or being found in a dropdown list by clicking a 'hamburger' button which appears on screens 575 pixels wide or less. The page the user is currently on is made clear by the navigational link for that page being brighter than the other links in the navigation bar. The logo on the left of the navigation bar also serves as a link to the home page - a feature which is widely used in web design and therefore expected by the user. 
@@ -72,6 +86,7 @@ The contact page is kept very simple, with an invitation to email the business o
 * A thank you message in the form of a modal when the user sends an enquiry through the contact form. 
 * A form that can give an immediate quote for potential customers by taking in variables such as location, number of guests and length of event and outputting an estimated price.
 
+<a name="tech"></a>
 ### Languages and Technologies  Used
 The website has been built using HTML5 and CSS, as well as some Javascript via plugins as detailed below.
 
@@ -104,7 +119,8 @@ The website has been built using HTML5 and CSS, as well as some Javascript via p
    
 9. [Autoprefixer](https://www.autoprefixer.github.io/)
    * Used to ensure cross browser validity for CSS.
-   
+
+<a name="testing"></a>
 ### Testing
 The HTML code has been checked against the [W3C Markup Validator](https://www.validator.w3.org/) and the CSS against the [W3C CSS Validator](https://www.validator.w3.org/) with any issues highlighted by the validators fixed. The code contains no validity issues.
 
@@ -158,6 +174,8 @@ web browsers. As well as this, the website has been tested using a
 
 thank you modal bug
 
+<a name="deployment"></a>
 ### Deployment
 
+<a name="credits"></a>
 ### Credits
