@@ -223,6 +223,7 @@ nav span i {
 }
 .contact-image {
     width: 90%;
+    margin: 0 auto;
     border-radius: 50%;
     border: 2px solid #ffffff;
 
