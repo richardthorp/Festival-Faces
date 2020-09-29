@@ -39,7 +39,6 @@ body {
 
 /*------------------------------------------------------Nav bar */
 .nav-container {
-    height: 125px;
     position: relative;
     min-width: 270px;
 
@@ -54,13 +53,13 @@ body {
 }
 
 .blue-stripe {
-    height: 50%;
+    height: 53px;
     background-color: #91BFBF;
 
 }
 
 .green-stripe {
-    height: 50%;
+    height: 53px;
     background-color: #769B67;
 }
 
@@ -271,9 +270,16 @@ nav span i {
 }
 
 @media only screen and (max-width: 380px) {
-    .nav-container{
-        height: 80px;
+    .blue-stripe {
+    height: 40px;
+
     }
+
+    .green-stripe {
+    height: 40px;
+
+    }
+
     .welcome-container{
         margin-top: 0;
     }
