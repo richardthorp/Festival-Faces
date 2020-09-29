@@ -66,7 +66,7 @@ body {
 .green-stripe{
     height: 53px;
     z-index: 1;
-    background-color: #769B67;
+    background-color: #5d7b51;
 }
 
 .nav-item {
@@ -77,18 +77,31 @@ body {
     letter-spacing: 0.5rem;
     position: relative;
     text-transform: uppercase;
-    
+
+}
+.link-color {
+    color: #cecece;
+}
+
+.active-link {
+    color: #fff;
+
+}
+
+.active-link:hover, .link-color:hover{
+    color: #fff;
+
 }
 
 nav span i {
-    color: #ffffff;
+    color: #fff;
     font-size: 2rem;
 }
 .navbar-toggler {
     position: relative;
     bottom: 26px;
     right: 10px;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
    
 }
 
@@ -96,13 +109,13 @@ nav span i {
 .ff-footer {
     padding: 15px 0;
     width: 100%;
-    background-color: #769B67;
-    color: #ffffff80;
+    background-color: #5d7b51;
+    color: #cecece;
     margin-top: 20px;
 }
 
 .ff-footer a, .ff-footer p {
-    color:#ffffff80;
+    color:#cecece;
     margin: 0;
 }
 
@@ -113,7 +126,7 @@ nav span i {
 }
 
 .ff-footer a:hover{
-    color:#ffffff;
+    color:#fff;
 }
 /*------------------------------------------------------Home page */
 .welcome-container{
