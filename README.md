@@ -13,11 +13,17 @@ The business goals of the website are:
 ## Table of Contents
 
 [User Experience - UX](#UX)
+
 [Design](#design)
+
 [Features](#features)
+
 [Languages and Technologies](#tech)
+
 [Testing](#testing)
+
 [Deployment](#deployment)
+
 [Credits](#credits)
 
 
