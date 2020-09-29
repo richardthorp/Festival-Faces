@@ -58,15 +58,22 @@ body {
 
 }
 
-.navbar{
-    padding: 0;
-        
-}
-
 .green-stripe{
     height: 53px;
     z-index: 1;
     background-color: #5d7b51;
+
+}
+
+.nav-trim {
+    background-color: #769B67;
+    height: 7px;
+
+}
+
+.navbar{
+    padding: 0;
+        
 }
 
 .nav-item {
@@ -109,13 +116,13 @@ nav span i {
 .ff-footer {
     padding: 15px 0;
     width: 100%;
-    background-color: #5d7b51;
-    color: #cecece;
+    background-color: #769B67;
+    color: #000;
     margin-top: 20px;
 }
 
 .ff-footer a, .ff-footer p {
-    color:#cecece;
+    color:#000;
     margin: 0;
 }
 
