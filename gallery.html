@@ -1,857 +1,376 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Festival Faces - Face Painting - Eco Glitter - Body Art</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
-  </head>
 
-  <body class="d-flex flex-column h-100">
-    <header class="nav-container">
-      <a href="index.html"
-        ><img id="logo" src="assets/images/logooutline.png" alt="Logo"
-      /></a>
-      <div class="blue-stripe"></div>
-        <nav class="navbar navbar-expand-sm green-stripe">
-          <button
-            class="ml-auto navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span><i class="fas fa-bars"></i></span>
-          </button>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Festival Faces - Face Painting - Eco Glitter - Body Art</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg"> </head>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link link-color" href="index.html">Home </a>
+<body class="d-flex flex-column h-100">
+	<header class="nav-container">
+		<a href="index.html"><img id="logo" src="assets/images/logooutline.png" alt="Logo" /></a>
+		<div class="blue-stripe"></div>
+		<nav class="navbar navbar-expand-sm green-stripe">
+			<button class="ml-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span><i class="fas fa-bars"></i></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <a class="nav-link link-color" href="index.html">Home </a> </li>
+					<li class="nav-item"> <a class="nav-link active-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active-link" href="gallery.html"
-                  >Gallery <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link-color" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="nav-trim"></div>
-    </header>
-    <div class="page-wrap">
-      <section class="gallery-container">
-        <h1 class="headings">Gallery</h1>
-        <p>Click on an image to expand.</p>
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-                                                                    <!--IMAGE MODAL 1-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery1"
-              >
-                <img
-                  src="assets/images/gallery/gallery1.jpg"
-                  alt="Man with swirly pattern painted on forehead and around his eye."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery1"
-            tabindex="-1"
-            
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery1.jpg" alt="Man with swirly pattern painted on forehead and around his eye." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 2-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery2"
-              >
-                <img
-                  src="assets/images/gallery/gallery2.jpg"
-                  alt="Smiling girl with floral pattern painted on forehead and around her eye"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery2"
-            tabindex="-1"
-           
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery2.jpg" alt="Smiling girl with floral pattern painted on forehead and around her eye" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 3-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery3"
-              >
-                <img
-                  src="assets/images/gallery/gallery3.jpg"
-                  alt="Smiling girl with Spiderman mask painted on her face"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery3"
-            tabindex="-1"
-            
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery3.jpg" alt="Smiling girl with Spiderman mask painted on her face" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 4-->  
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery4"
-              >
-                <img
-                  src="assets/images/gallery/gallery4.jpg"
-                  alt="Boy with batman symbol painted over his eyes"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery4"
-            tabindex="-1"
-         
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery4.jpg" alt="Boy with batman symbol painted over his eyes" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 5-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery5"
-              >
-                <img
-                  src="assets/images/gallery/gallery5.jpg"
-                  alt="Woman with dark stripe with swirls and stars painted from ear to cheek and up to forehead"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery5"
-            tabindex="-1"
-           
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery5.jpg" alt="Woman with dark stripe with swirls and stars painted from ear to cheek and up to forehead" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 6-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery6"
-              >
-                <img
-                  src="assets/images/gallery/gallery6.jpg"
-                  alt="Boy with face painted to look like a snake face, with snake eyes on his eyelids"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery6"
-            tabindex="-1"
-         
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery6.jpg" alt="Boy with face painted to look like a snake face, with snake eyes on his eyelids" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 7-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery7"
-              >
-                <img
-                  src="assets/images/gallery/gallery7.jpg"
-                  alt="Forearm painted with Morty from 'Rick and Morty' television show"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery7"
-            tabindex="-1"
-         
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery7.jpg" alt="Forearm painted with Morty from 'Rick and Morty' television show" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 8-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery8"
-              >
-                <img
-                  src="assets/images/gallery/gallery8.jpg"
-                  alt="Woman with spooky face paint including red and black paint weeping from eyes and a third eye in the middle of her forehead"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery8"
-            tabindex="-1"
-          
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery8.jpg" alt="Woman with spooky face paint including red and black paint weeping from eyes and a third eye in the middle of her forehead" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 9-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery9"
-              >
-                <img
-                  src="assets/images/gallery/gallery9.jpg"
-                  alt="Woman with colourful glitter around her eye"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery9"
-            tabindex="-1"
-       
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery9.jpg" alt="Woman with colourful glitter around her eye" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 10-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery10"
-              >
-                <img
-                  src="assets/images/gallery/gallery10.jpg"
-                  alt="Forearm painted with realistic spider."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery10"
-            tabindex="-1"
-          
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery10.jpg" alt="Forearm painted with realistic spider." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 11-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery11"
-              >
-                <img
-                  src="assets/images/gallery/gallery11.jpg"
-                  alt="Hand painted with pink and blue floral design with pink love hearts."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery11"
-            tabindex="-1"
-          
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery11.jpg" alt="Hand painted with pink and blue floral design with pink love hearts." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 12-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery12"
-              >
-                <img
-                  src="assets/images/gallery/gallery12.jpg"
-                  alt="Long green snake painted the length of a forearm"
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery12"
-            tabindex="-1"
-        
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery12.jpg" alt="Long green snake painted the length of a forearm" class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 13-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery13"
-              >
-                <img
-                  src="assets/images/gallery/gallery13.jpg"
-                  alt="Woman with face painted to look like the clown from film and book 'It'."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery13"
-            tabindex="-1"
-      
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery13.jpg" alt="Woman with face painted to look like the clown from film and book 'It'." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 14-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery14"
-              >
-                <img
-                  src="assets/images/gallery/gallery14.jpg"
-                  alt="Man with 'Sonic the Hedgehog' painted on his cheek."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery14"
-            tabindex="-1"
-   
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery14.jpg" alt="Man with 'Sonic the Hedgehog' painted on his cheek." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 15-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery15"
-              >
-                <img
-                  src="assets/images/gallery/gallery15.jpg"
-                  alt="Man with glitter around his eye."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery15"
-            tabindex="-1"
-         
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery15.jpg" alt="Man with glitter around his eye." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 16-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery16"
-              >
-                <img
-                  src="assets/images/gallery/gallery16.jpg"
-                  alt="Floral design painted down the full length of an arm."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery16"
-            tabindex="-1"
- 
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery16.jpg" alt="Floral design painted down the full length of an arm." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 17-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery17"
-              >
-                <img
-                  src="assets/images/gallery/gallery17.jpg"
-                  alt="Girl with floral pattern painted across forehead and around her eyes."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery17"
-            tabindex="-1"
-        
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery17.jpg" alt="Girl with floral pattern painted across forehead and around her eyes." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-                                                                    <!--IMAGE MODAL 18-->
-            <div class="col-6 col-sm-3 col-md-2 p-0">
-              <button
-                type="button"
-                class="btn p-1"
-                data-toggle="modal"
-                data-target="#gallery18"
-              >
-                <img
-                  src="assets/images/gallery/gallery18.jpg"
-                  alt="Man with Calcifer from 'Howls Moving Castle' painted on his forehead."
-                  class="thumbnail"
-                />
-              </button>
-              <div
-            class="modal fade modal-size"
-            id="gallery18"
-            tabindex="-1"
-            
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header p-0">
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true" class="close-button">CLOSE</span>
-                  </button>
-                </div>
-                <div class="modal-body p-0">
-                  <img src="assets/images/gallery/gallery18.jpg" alt="Man with Calcifer from 'Howls Moving Castle' painted on his forehead." class="expanded-image" />
-                </div>
-              </div>
-            </div>
-          </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </div>
-    <footer class="container-fluid mt-auto footer ff-footer">
-      <div class="row no-gutters">
-        <div class="col-6 col-sm-4 text-center order-1 my-auto">
-          <p>Contact us at:</p>
-          <a href="mailto:festivalfaces@gmail.com">festivalfaces@gmail.com</a>
-        </div>
-        <div
-          class="col-12 col-sm-4 text-center font-weight-light order-3 order-sm-2 my-auto"
-        >
-          <p>Copyright &copy; 2020 Richard&nbsp;Thorp</p>
-        </div>
-        <div
-          class="col-6 col-sm-4 text-center order-2 order-sm-3 my-auto"
-        >
-          <p>
-            Follow us at: <br />
-            <a href="http://www.twitter.com/"
-            target="_blank"
-              ><i class="fab fa-twitter-square"
+                <a class="nav-link link-color" href="contact.html">Contact</a> </li>
+				</ul>
+			</div>
+		</nav>
+		<div class="nav-trim"></div>
+	</header>
+	<div class="page-wrap">
+		<section class="gallery-container">
+			<h1 class="headings">Gallery</h1>
+			<p>Click on an image to expand.</p>
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<!--IMAGE MODAL 1-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery1"> <img src="assets/images/gallery/gallery1.jpg" 
+                        alt="Man with swirly pattern painted on forehead and around his eye." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery1" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery1.jpg" 
+                                    alt="Man with swirly pattern painted on forehead and around his eye." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 2-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery2"> <img src="assets/images/gallery/gallery2.jpg" 
+                        alt="Smiling girl with floral pattern painted on forehead and around her eye" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery2" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery2.jpg" 
+                                    alt="Smiling girl with floral pattern painted on forehead and around her eye" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 3-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery3"> <img src="assets/images/gallery/gallery3.jpg" 
+                        alt="Smiling girl with Spiderman mask painted on her face" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery3" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery3.jpg" 
+                                    alt="Smiling girl with Spiderman mask painted on her face" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 4-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery4"> <img src="assets/images/gallery/gallery4.jpg" 
+                        alt="Boy with batman symbol painted over his eyes" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery4" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery4.jpg" 
+                                    alt="Boy with batman symbol painted over his eyes" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 5-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery5"> <img src="assets/images/gallery/gallery5.jpg" 
+                        alt="Woman with dark stripe with swirls and stars painted from ear to cheek and up to forehead" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery5" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery5.jpg" 
+                                    alt="Woman with dark stripe with swirls and stars painted from ear to cheek and up to forehead" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 6-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery6"> <img src="assets/images/gallery/gallery6.jpg" 
+                        alt="Boy with face painted to look like a snake face, with snake eyes on his eyelids" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery6" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery6.jpg" 
+                                    alt="Boy with face painted to look like a snake face, with snake eyes on his eyelids" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 7-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery7"> <img src="assets/images/gallery/gallery7.jpg" 
+                        alt="Forearm painted with Morty from 'Rick and Morty' television show" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery7" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery7.jpg" 
+                                    alt="Forearm painted with Morty from 'Rick and Morty' television show" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 8-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery8"> <img src="assets/images/gallery/gallery8.jpg" 
+                        alt="Woman with spooky face paint including red and black paint weeping from eyes and a third eye in the middle of her forehead" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery8" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery8.jpg" 
+                                    alt="Woman with spooky face paint including red and black paint weeping from eyes and a third eye in the middle of her forehead" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 9-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery9"> <img src="assets/images/gallery/gallery9.jpg" 
+                        alt="Woman with colourful glitter around her eye" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery9" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery9.jpg" 
+                                    alt="Woman with colourful glitter around her eye" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 10-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery10"> <img src="assets/images/gallery/gallery10.jpg" 
+                        alt="Forearm painted with realistic spider." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery10" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery10.jpg" alt="Forearm painted with realistic spider." 
+                                    class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 11-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery11"> <img src="assets/images/gallery/gallery11.jpg" 
+                        alt="Hand painted with pink and blue floral design with pink love hearts." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery11" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery11.jpg" 
+                                    alt="Hand painted with pink and blue floral design with pink love hearts." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 12-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery12"> <img src="assets/images/gallery/gallery12.jpg" 
+                        alt="Long green snake painted the length of a forearm" class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery12" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery12.jpg" 
+                                    alt="Long green snake painted the length of a forearm" class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 13-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery13"> <img src="assets/images/gallery/gallery13.jpg" 
+                        alt="Woman with face painted to look like the clown from film and book 'It'." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery13" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery13.jpg" 
+                                    alt="Woman with face painted to look like the clown from film and book 'It'." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 14-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery14"> <img src="assets/images/gallery/gallery14.jpg" 
+                        alt="Man with 'Sonic the Hedgehog' painted on his cheek." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery14" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery14.jpg" 
+                                    alt="Man with 'Sonic the Hedgehog' painted on his cheek." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 15-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery15"> <img src="assets/images/gallery/gallery15.jpg" 
+                        alt="Man with glitter around his eye." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery15" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery15.jpg" alt="Man with glitter around his eye." 
+                                    class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 16-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery16"> <img src="assets/images/gallery/gallery16.jpg" 
+                        alt="Floral design painted down the full length of an arm." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery16" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery16.jpg" 
+                                    alt="Floral design painted down the full length of an arm." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 17-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery17"> <img src="assets/images/gallery/gallery17.jpg" 
+                        alt="Girl with floral pattern painted across forehead and around her eyes." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery17" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery17.jpg" 
+                                    alt="Girl with floral pattern painted across forehead and around her eyes." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--IMAGE MODAL 18-->
+					<div class="col-6 col-sm-3 col-md-2 p-0">
+						<button type="button" class="btn p-1" data-toggle="modal" data-target="#gallery18"> <img src="assets/images/gallery/gallery18.jpg" 
+                        alt="Man with Calcifer from 'Howls Moving Castle' painted on his forehead." class="thumbnail" /> </button>
+						<div class="modal fade modal-size" id="gallery18" tabindex="-1" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header p-0">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true" 
+                                        class="close-button">CLOSE</span> </button>
+									</div>
+									<div class="modal-body p-0"> <img src="assets/images/gallery/gallery18.jpg" 
+                                    alt="Man with Calcifer from 'Howls Moving Castle' painted on his forehead." class="expanded-image" /> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="container-fluid mt-auto footer ff-footer">
+		<div class="row no-gutters">
+			<div class="col-6 col-sm-4 text-center order-1 my-auto">
+				<p>Contact us at:</p> <a href="mailto:festivalfaces@gmail.com">festivalfaces@gmail.com</a> </div>
+			<div class="col-12 col-sm-4 text-center font-weight-light order-3 order-sm-2 my-auto">
+				<p>Copyright &copy; 2020 Richard&nbsp;Thorp</p>
+			</div>
+			<div class="col-6 col-sm-4 text-center order-2 order-sm-3 my-auto">
+				<p> Follow us at:
+					<br /> <a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"
               ></i
-            ></a>
-            <a href="http://www.facebook.com/festivalfaces.uk/"
-            target="_blank"
-              ><i class="fab fa-facebook-square"></i
-            ></a>
-            <a href="http://www.instagram.com/"
-            target="_blank"
-              ><i class="fab fa-instagram-square"></i
-            ></a>
-          </p>
-        </div>
-      </div>
-    </footer>
+            ></a> <a href="http://www.facebook.com/festivalfaces.uk/" target="_blank"><i class="fab fa-facebook-square"></i
+            ></a> <a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i
+            ></a> </p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
