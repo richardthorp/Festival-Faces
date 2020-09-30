@@ -226,6 +226,21 @@ The tests detailed in this section were all completed using the following web br
 
 * All sections maintain good readability and structure across all screen sizes
 
+#### Gallery Page
+* All thumbnails open correct expanded image
+
+* Expanded images closed by clicking outside of the image or by clicking 'Close' 
+
+* Image columns either 2, 4 or 6 thumbnails wide depending on width of screen size, and always presented symetrically
+
+#### Contact page
+* Image displayed on screen sizes 768 pixels wide and above
+
+* All form inputs must to completed to send the form
+
+* The email field must contain an '@' to send the form
+
+
 thank you modal bug
 
 <a name="deployment"></a>
