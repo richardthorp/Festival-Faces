@@ -57,7 +57,9 @@ As a returning user of this website, I want to:
 
 ### Wireframes
 [Click here to view Home page wireframes](assets/images/readme-images/homepage-wireframes.png)
+
 [Click here to view Gallery page wireframes](assets/images/readme-images/gallery-wireframes.png)
+
 [Click here to view Contact page wireframes](assets/images/readme-images/contact-wireframes.png)
 
 ### Colour Scheme
@@ -182,7 +184,7 @@ As a returning user of this website, I want to:
   * Prices for childrens parties are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
 
 #### Manual testing of all elements thoughout the website
-The following tests were all completed using the following web browsers and hardware:
+The tests detailed in this section were all completed using the following web browsers and hardware:
 |                            | Chrome             | Edge             | Firefox            | Safari |
 | -------------             |:------------------:| -----------------:|-------------------:|--------:|
 | Microsoft Surface 3 (15") | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | |
@@ -191,17 +193,38 @@ The following tests were all completed using the following web browsers and hard
 | Macbook Pro 2016 (13")    | :heavy_check_mark: |                   | :heavy_check_mark: |:heavy_check_mark: |
 | iPad 7th generation 2019  | :heavy_check_mark:  |                  | :heavy_check_mark: |:heavy_check_mark: |
 
+#### Navigation Bar
+* Looks and responds the same way on every page 
 
+* Logo acts as link to index.html
 
+* All links are functional
 
-Web Browsers:
+* Links change colour to white when curser hovers
 
-* Google Chrome - Tested on Macbook Pro 2016 (13"), Microsoft Surface 3 (15"), Huawei P Smart 2019, Samsung Galaxy A6
-* Microsoft Edge 
-* Mozilla Firefox 
-* Apple Safari -tested on iPad 7th generation 2019 (10.2") and Macbook Pro 2016 (13")
+* Link for current page displayed in white
 
-web browsers. As well as this, the website has been tested using a
+* Links replaced with hamburger dropdown menu on screen sizes 575 pixels or less
+
+* Navigation bar reduces in height on screen sizes 380 pixels or less
+
+* All font and background colours colours pass contrast accessability tests on Google Dev Tools.
+
+#### Footer
+* Looks and responds the same way on every page 
+
+* Links change colour to white when curser hovers
+
+* All links are functional and open in a new window/tab
+
+* All font and background colours colours pass contrast accessability tests on Google Dev Tools.
+
+#### Home Page
+* 3 images displayed unless viewed on device of screen size 767 pixels or below.
+
+* Any copy containing 'get in touch' is clearly a link and links to contact page
+
+* All sections maintain good readability and structure across all screen sizes
 
 thank you modal bug
 
