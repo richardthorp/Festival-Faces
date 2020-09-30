@@ -1,3 +1,5 @@
+![Mock-ups of 'Festival Faces' website](assets/images/readme-images/responsive-mockup.jpg "Mock-ups of 'Festival Faces' website")
+
 # Festival-Faces
 [Click here to see live website](https://richardthorp.github.io/Festival-Faces/index.html)
 
@@ -63,7 +65,7 @@ As a returning user of this website, I want to:
 [Click here to view Contact page wireframes](assets/images/readme-images/contact-wireframes.png)
 
 ### Colour Scheme
-![alt text](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
+![Colour palette](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
 
 The colours found throughout the website are all shades of the colours [found in the company logo](assets/images/readme-images/ff-logo.jpg). The original design for the website featured a navigation bar with the same green (#769B67) found in the logo, however this proved to be too light a backgound colour to have sufficient contrast whilst using shades of white for the links. I felt that the off white and white shades worked well in the navigation bar, and therefore opted to change the background colour instead. 
 
