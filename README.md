@@ -144,6 +144,18 @@ The website has been built using HTML5 and CSS, as well as some Javascript via p
    
 9. [Autoprefixer](https://www.autoprefixer.github.io/)
    * Used to ensure cross browser validity for CSS.
+   
+10. [Am I Responsive?](http://ami.responsivedesign.is/)
+    * Used to create mock-ups found at the top of this README.
+   
+11. [CSS Formatter](https://www.cleancss.com/css-beautify/)
+    * Used to beautify CSS code.
+   
+12. [Beautify Tools](http://beautifytools.com/html-beautifier.php)
+    * Used to beautify HTML code.
+    
+13. [CSSmatic](https://www.cssmatic.com/box-shadow)
+    * Used to create box shadow effect.
 
 <a name="testing"></a>
 ### Testing
