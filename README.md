@@ -29,7 +29,14 @@ The business goals of the website are:
 
 <a name="UX"></a>
 ## UX
+### User Profiles
+* I am an event organiser looking for fun activities to offer guests.
+* I am an event organiser looking for businesses to sell a pitch at a festival or fair to.
+* I am a parent or carer looking to book suitable entertainment for a child's party.
+* I am a business owner looking to add something different to a staff party or PR event. 
 
+
+### User Stories
 As a first time user of this website, I want to:
 * Immediately understand how to navigate the website.
 * Understand the purpose of the website.
@@ -52,14 +59,16 @@ As a returning user of this website, I want to:
 ### Colour Scheme
 ![alt text](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
 
-The colours found throughout the website have been taken from the company logo. The main body of the website is a lighter shade of the blue found in the logo and navigation bar. The outcomes of using the lighter shade chosen are:
+The colours found throughout the website are all shades of the colours [found in the company logo](assets/images/readme-images/fflogo.jpg). The original design for the website featured a navigation bar with the same green (#769B67) found in the logo, however this proved to be too light a backgound colour to have sufficient contrast whilst using shades of white for the links. I felt that the off white and white shades worked well in the navigation bar, and therefore opted to change the background colour instead. 
+
+The main body of the website is a lighter shade (#C0D6D6) of the blue found in the logo and navigation bar. The outcomes of using the lighter shade chosen are:
 * Clearer contrast between the background colour and font colour.
 * More contrast between the images and background colour.
 * A light and non oppressive user experience when compared to a heavy, darker colour.
 
-An even lighter shade of the logo blue can be found in the 'Services' area of the home page, as well as in the Gallery page and the Contact page. This was used in the Gallery page to further accentuate the contrast between images and the background colour. The lighter shade was used in the 'Services' section and on the Contact page to break up the content and to draw the eye of the user to the key information on the page. 
+An even lighter shade (#E7EFEF) of the logo blue can be found in the 'Services' area of the home page, as well as in the Gallery page and the Contact page. This was used in the Gallery page to further accentuate the contrast between images and the background colour. The lighter shade was used in the 'Services' section and on the Contact page to break up the content and to draw the eye of the user to the key information on the page. 
 
-The 'Send' button at the bottom of the contact form is the same blue from the logo, ensuring the element is consistent with the rest of the website.
+The 'Send' button at the bottom of the contact form is the same blue (#91BFBF) from the logo, ensuring the element is consistent with the rest of the website.
 
 ### Fonts
 The font used for all of the headings throughout the website is 'Londrina Solid' from Google Fonts. This font was used in part as it is similar in style to the font found on the company logo. It works well for the website and therefore the business, as it connotes feelings of fun and of being hand made. As a back-up font, 'Impact' has been chosen as it is a very 'web-safe' font, as well as being striking and stencil like, which is appropriate for a website pertaining to art. The company logo font was not chosen for headings as the shadow effect detracted from the clarity of the headers.
