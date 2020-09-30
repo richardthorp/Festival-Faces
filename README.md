@@ -50,6 +50,8 @@ As a returning user of this website, I want to:
 [Click here to view wireframes](https://github.com/richardthorp/Festival-Faces/blob/master/Festival%20Faces%20Wireframes.pdf)
 
 ### Colour Scheme
+![alt text](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
+
 The colours found throughout the website have been taken from the company logo. The main body of the website is a lighter shade of the blue found in the logo and navigation bar. The outcomes of using the lighter shade chosen are:
 * Clearer contrast between the background colour and font colour.
 * More contrast between the images and background colour.
