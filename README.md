@@ -265,7 +265,7 @@ There are no known bugs on the website.
 
 <a name="deployment"></a>
 ### Deployment
-
+###### Deployment to GitHub pages
 The website was deployed to GitHub pages using the following process:
 
 1. Log in to the GitHub website and select the 'Festival-Faces' repositary from the list in the top left of the screen.
@@ -283,6 +283,17 @@ To find the link to the newly deployed site, follow these steps:
 2. To the right of the screen, click on the 'github-pages' under the 'Enviroments' heading.
 
 3. Click on the 'View Deployment' button to the right of the screen. This will launch the website with the link which can now be used by anyone to view it.
+
+###### Forking the Repositary
+If you wish to work on this project within your own repositary, it can be forked using the following proccess:
+
+1. Log in to your GitHub account on the GitHub website.
+
+2. Using the search bar in the top left of the screen, search for 'richardthorp/Festival-Faces'.
+
+3. Click on the search result and then click on the 'Fork' button to the right of the screen, above the list of files and folders.
+
+4. The repositary is now 'forked' and saved in your own repositary.
 
 
 <a name="credits"></a>
