@@ -54,12 +54,18 @@ As a returning user of this website, I want to:
 
 <a name="design"></a>
 ## Design
-[Click here to view wireframes](https://github.com/richardthorp/Festival-Faces/blob/master/Festival%20Faces%20Wireframes.pdf)
+
+### Wireframes
+[Click here to view Home page wireframes](assets/images/readme-images/homepage-wireframes.png)
+
+[Click here to view Gallery page wireframes](assets/images/readme-images/gallery-wireframes.png)
+
+[Click here to view Contact page wireframes](assets/images/readme-images/contact-wireframes.png)
 
 ### Colour Scheme
 ![alt text](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
 
-The colours found throughout the website are all shades of the colours [found in the company logo](assets/images/readme-images/fflogo.jpg). The original design for the website featured a navigation bar with the same green (#769B67) found in the logo, however this proved to be too light a backgound colour to have sufficient contrast whilst using shades of white for the links. I felt that the off white and white shades worked well in the navigation bar, and therefore opted to change the background colour instead. 
+The colours found throughout the website are all shades of the colours [found in the company logo](assets/images/readme-images/ff-logo.jpg). The original design for the website featured a navigation bar with the same green (#769B67) found in the logo, however this proved to be too light a backgound colour to have sufficient contrast whilst using shades of white for the links. I felt that the off white and white shades worked well in the navigation bar, and therefore opted to change the background colour instead. 
 
 The main body of the website is a lighter shade (#C0D6D6) of the blue found in the logo and navigation bar. The outcomes of using the lighter shade chosen are:
 * Clearer contrast between the background colour and font colour.
@@ -178,16 +184,47 @@ As a returning user of this website, I want to:
   * Prices for childrens parties are clearly detailed in the 'Services' section - seperate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
 
 #### Manual testing of all elements thoughout the website
-The following tests were all completed using the following web browsers and hardware:
+The tests detailed in this section were all completed using the following web browsers and hardware:
+|                            | Chrome             | Edge             | Firefox            | Safari |
+| -------------             |:------------------:| -----------------:|-------------------:|--------:|
+| Microsoft Surface 3 (15") | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | |
+| Samsung Galaxy A6         | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark:||
+| Huawei P Smart 2019       | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: ||
+| Macbook Pro 2016 (13")    | :heavy_check_mark: |                   | :heavy_check_mark: |:heavy_check_mark: |
+| iPad 7th generation 2019  | :heavy_check_mark:  |                  | :heavy_check_mark: |:heavy_check_mark: |
 
-Web Browsers:
+#### Navigation Bar
+* Looks and responds the same way on every page 
 
-* Google Chrome - Tested on Macbook Pro 2016 (13"), Microsoft Surface 3 (15"), Huawei P Smart 2019, Samsung Galaxy A6
-* Microsoft Edge 
-* Mozilla Firefox 
-* Apple Safari -tested on iPad 7th generation 2019 (10.2") and Macbook Pro 2016 (13")
+* Logo acts as link to index.html
 
-web browsers. As well as this, the website has been tested using a
+* All links are functional
+
+* Links change colour to white when curser hovers
+
+* Link for current page displayed in white
+
+* Links replaced with hamburger dropdown menu on screen sizes 575 pixels or less
+
+* Navigation bar reduces in height on screen sizes 380 pixels or less
+
+* All font and background colours colours pass contrast accessability tests on Google Dev Tools.
+
+#### Footer
+* Looks and responds the same way on every page 
+
+* Links change colour to white when curser hovers
+
+* All links are functional and open in a new window/tab
+
+* All font and background colours colours pass contrast accessability tests on Google Dev Tools.
+
+#### Home Page
+* 3 images displayed unless viewed on device of screen size 767 pixels or below.
+
+* Any copy containing 'get in touch' is clearly a link and links to contact page
+
+* All sections maintain good readability and structure across all screen sizes
 
 thank you modal bug
 
