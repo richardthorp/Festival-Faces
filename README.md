@@ -254,6 +254,14 @@ The tests detailed in this section were all completed using the following web br
 
 * The email field must contain an '@' to send the form
 
+### Additional Testing
+* Friends and family asked to visit the website and report on any bugs or UX issues - no such issues have been found.
+* Website posted to 'Peer Code Review' on the Code Institute Slack channel.
+
+### Known Bugs
+A modal which displayed a 'Thank you for your enquiry' message when the contact form is sent has been removed, as it displayed even when the form had not been correctly filled. This is a feature to be added at a later date when I have the technical ability to fix it.
+
+There are no known bugs on the website.
 
 thank you modal bug
 
