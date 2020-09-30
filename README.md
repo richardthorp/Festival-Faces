@@ -263,10 +263,27 @@ A modal which displayed a 'Thank you for your enquiry' message when the contact 
 
 There are no known bugs on the website.
 
-thank you modal bug
-
 <a name="deployment"></a>
 ### Deployment
+
+The website was deployed to GitHub pages using the following process:
+
+1. Log in to the GitHub website and select the 'Festival-Faces' repositary from the list in the top left of the screen.
+
+2. Once viewing the repositary, click on 'Settings' which can be found in the navigation bar above the list of files and folders.
+
+3. Scroll down to the 'GitHub Pages' section and under the 'Source' heading find the dropdown menu (default value is 'None'). Click on the dropdown menu and select 'master' from the list.
+
+4. To the right of the dropdown menu, click the 'Save' button. The website is now deployed.
+
+To find the link to the newly deployed site, follow these steps:
+
+1. Navigate to the repositary's main screen (see step 1 of the deployment proccess).
+
+2. To the right of the screen, click on the 'github-pages' under the 'Enviroments' heading.
+
+3. Click on the 'View Deployment' button to the right of the screen. This will launch the website with the link which can now be used by anyone to view it.
+
 
 <a name="credits"></a>
 ### Credits
