@@ -29,7 +29,14 @@ The business goals of the website are:
 
 <a name="UX"></a>
 ## UX
+### User Profiles
+* I am an event organiser looking for fun activities to offer guests.
+* I am an event organiser looking for businesses to sell a pitch at a festival or fair to.
+* I am a parent or carer looking to book suitable entertainment for a child's party.
+* I am a business owner looking to add something different to a staff party or PR event. 
 
+
+### User Stories
 As a first time user of this website, I want to:
 * Immediately understand how to navigate the website.
 * Understand the purpose of the website.
