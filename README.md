@@ -183,6 +183,16 @@ As a returning user of this website, I want to:
 
 #### Manual testing of all elements thoughout the website
 The following tests were all completed using the following web browsers and hardware:
+|                            | Chrome             | Edge             | Firefox            | Safari |
+| -------------             |:------------------:| -----------------:|-------------------:|--------:|
+| Microsoft Surface 3 (15") | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | |
+| Samsung Galaxy A6         | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark:||
+| Huawei P Smart 2019       | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: ||
+| Macbook Pro 2016 (13")    | :heavy_check_mark: |                   | :heavy_check_mark: |:heavy_check_mark: |
+| iPad 7th generation 2019  | :heavy_check_mark:  |                  | :heavy_check_mark: |:heavy_check_mark: |
+
+
+
 
 Web Browsers:
 
