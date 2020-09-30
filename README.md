@@ -59,7 +59,7 @@ As a returning user of this website, I want to:
 ### Colour Scheme
 ![alt text](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
 
-The colours found throughout the website are all shades of the colours [found in the company logo](assets/images/readme-images/fflogo.jpg). The original design for the website featured a navigation bar with the same green (#769B67) found in the logo, however this proved to be too light a backgound colour to have sufficient contrast whilst using shades of white for the links. I felt that the off white and white shades worked well in the navigation bar, and therefore opted to change the background colour instead. 
+The colours found throughout the website are all shades of the colours [found in the company logo](assets/images/readme-images/ff-logo.jpg). The original design for the website featured a navigation bar with the same green (#769B67) found in the logo, however this proved to be too light a backgound colour to have sufficient contrast whilst using shades of white for the links. I felt that the off white and white shades worked well in the navigation bar, and therefore opted to change the background colour instead. 
 
 The main body of the website is a lighter shade (#C0D6D6) of the blue found in the logo and navigation bar. The outcomes of using the lighter shade chosen are:
 * Clearer contrast between the background colour and font colour.
