@@ -117,12 +117,12 @@ nav span i {
     padding: 15px 0;
     width: 100%;
     background-color: #769B67;
-    color: #000;
+    color: #000000b8;
     margin-top: 20px;
 }
 
 .ff-footer a, .ff-footer p {
-    color:#000;
+    color:#000000b8;
     margin: 0;
 }
 
@@ -197,7 +197,7 @@ nav span i {
 }
 
 .services-container p, .services-container h4 {
-    color: #57734b;
+    color: #5d7b51;
 }
 
 .services-container p {
