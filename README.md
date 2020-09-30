@@ -54,7 +54,11 @@ As a returning user of this website, I want to:
 
 <a name="design"></a>
 ## Design
-[Click here to view wireframes](https://github.com/richardthorp/Festival-Faces/blob/master/Festival%20Faces%20Wireframes.pdf)
+
+### Wireframes
+[Click here to view Home page wireframes](assets/images/readme-images/homepage-wireframes.png)
+[Click here to view Gallery page wireframes](assets/images/readme-images/gallery-wireframes.png)
+[Click here to view Contact page wireframes](assets/images/readme-images/contact-wireframes.png)
 
 ### Colour Scheme
 ![alt text](assets/images/readme-images/palette.jpg "Colour palette used in 'Festival Faces' website")
