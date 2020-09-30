@@ -310,3 +310,24 @@ If you wish to clone the repositary to work on locally, follow these steps:
 
 <a name="credits"></a>
 ### Credits
+
+#### Code
+* Bootstrap was used for:
+  * Responsive navigation bar
+  * Responsive grid layout
+  * Gallery page modal
+  * Contact form
+  
+* Any Javascript found on the website was provided by the [jQuery](https://www.jquery.com/) library.
+  
+* Code was beautified with the assistance of [Beautify Tools](http://beautifytools.com/html-beautifier.php) for the HTML and [CSS Formatter](https://www.cleancss.com/css-beautify/) for the CSS.
+
+* The box shadow effect was created with the assistance of [CSSmatic](https://www.cssmatic.com/box-shadow)
+
+#### Content
+All images, copy and the 'Festival Faces' logo was provided by Jemma French.
+
+#### Acknowledgements
+Huge thanks to my mentor Maranatha Ilesanmi for all his help and guidance on the project.
+
+And thanks to the Code Institute Slack community for being such a helpful and supportive bunch!
