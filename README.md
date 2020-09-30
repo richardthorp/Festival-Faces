@@ -295,6 +295,18 @@ If you wish to work on this project within your own repositary, it can be forked
 
 4. The repositary is now 'forked' and saved in your own repositary.
 
+###### Cloning the Repositary
+If you wish to clone the repositary to work on locally, follow these steps:
+
+1. Log in to GitHub and navigate to the repositary (follow step 2 from 'Forking the Repositary).
+
+2. Click on the green 'Code' button to the top right of the list of files and folders.
+
+3.  Copy the URL displayed underneath the underlined 'HTTPS'.
+
+4. In your local IDE, launch Git Bash and create or navigate to the folder in which you wish to make the clone.
+
+5. On the CLI type 'git clone' follwed by the url copied from step 3 and press enter. You will now have a local clone of the repositary.
 
 <a name="credits"></a>
 ### Credits
