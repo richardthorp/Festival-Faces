@@ -176,10 +176,10 @@ As a first time user of this website, I want to:
   * This requirement is met immediately upon arriving at the home page with the three images acting as a hero image (or 1 large image on mobile). This is further met by the gallery page which contains 18 images exhibiting a wide range of previous work.
 
 * Understand what services are offered.
-  The home page consists of very little in the way of copy, except for short concise paragraphs regarding the business' services and types of events catered for.
+  * The home page consists of very little in the way of copy, except for short concise paragraphs regarding the business' services and types of events catered for.
 
 * Gain an understanding of costs.
-  Prices for children's parties are clearly detailed in the 'Services' section - separate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
+  * Prices for children's parties are clearly detailed in the 'Services' section - separate to the rest of the text and in bold. The other types of event listed in the services section are not possible to give prices for without further clarifications from the potential client. Where this is the case, a clear link to the 'Contact' page is offered.
 
 * Gain an understanding of the company to attain whether they are right for my needs. 
   * Again, the 'Home' page offers short and clear copy that summarises the business' ethos and services.
