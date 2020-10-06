@@ -268,7 +268,7 @@ There are no known bugs on the website.
 
 <a name="deployment"></a>
 ### Deployment
-###### Deployment to GitHub pages
+#### Deployment to GitHub pages
 The website was deployed to GitHub pages using the following process:
 
 1. Log in to the GitHub website and select the 'Festival-Faces' repository  from the list in the top left of the screen.
@@ -287,7 +287,7 @@ To find the link to the newly deployed site, follow these steps:
 
 3. Click on the 'View Deployment' button to the right of the screen. This will launch the website with the link which can now be used by anyone to view it.
 
-###### Forking the Repository
+#### Forking the Repository
 If you wish to work on this project within your own repository, it can be forked using the following proccess:
 
 1. Log in to your GitHub account on the GitHub website.
@@ -298,7 +298,7 @@ If you wish to work on this project within your own repository, it can be forked
 
 4. The repository is now 'forked' and saved in your own repository.
 
-###### Cloning the Repository
+#### Cloning the Repository
 If you wish to clone the repository to work on locally, follow these steps:
 
 1. Log in to GitHub and navigate to the repository (follow step 2 from 'Forking the Repository').
